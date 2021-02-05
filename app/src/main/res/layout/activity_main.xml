@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/birutua"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/button"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hello"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp">
+
+        <ImageButton
+            android:id="@+id/set1"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/button"
+            android:src="@drawable/profile"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profil"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/black"
+            />
+        <ImageButton
+            android:id="@+id/but2"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/button"
+            android:src="@drawable/index"
+            android:layout_alignParentRight="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Github"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="200dp"
+            android:textColor="@color/black"
+            />
+        <ImageButton
+            android:id="@+id/but3"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/button"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/kembali"
+            android:layout_below="@+id/set1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/black"
+            />
+        <ImageButton
+            android:id="@+id/but4"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/button"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/kirim"
+            android:layout_below="@+id/but2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parsing"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="205dp"
+            android:textColor="@color/black"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
